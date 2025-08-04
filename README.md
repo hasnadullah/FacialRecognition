@@ -26,7 +26,7 @@ This simple Python project demonstrates how to detect faces in an image using **
 
 ```
 📁 face-detection/
-├── face_detect.py                    # Main face detection script
+├── facerecognition.py                    # Main face detection script
 ├── 3.png                             # Sample image with faces
 ├── haarcascade_frontalface_default.xml # Haar Cascade model file
 └── README.md
@@ -44,14 +44,14 @@ pip install opencv-python
 
 2. **Ensure the following are present in the project folder:**
 
-   * `face_detect.py` (your script)
+   * `facerecognition.py` (your script)
    * `3.png` (or any image you want to test)
    * `haarcascade_frontalface_default.xml`
 
 3. **Run the script:**
 
 ```bash
-python face_detect.py
+python facerecognition.py
 ```
 
 4. **Output:**
